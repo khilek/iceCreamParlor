@@ -36,6 +36,11 @@ function orderIceCream(name) {
   totalPrice()
 }
 
+function orderToppings(name) {
+  let toppingType = toppings.find(someToppings => someToppings.name == name);
+  totalPrice()
+}
+
 function orderCookieDough() {
   let iceCreamCookieDough = iceCream[0]
   iceCreamCookieDough.quantity++
