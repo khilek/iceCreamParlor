@@ -12,16 +12,159 @@
 </head>
 
 <body>
-  <nav>
-    TEST
+
+  <nav class="bg-danger-subtle text-center">
+    <h1>The Ice Creamer Scoopers <i class="mdi mdi-ice-cream"></i></h1>
   </nav>
 
-  <main class="container">
+  <main class="container-fluid">
     <div class="row">
       <div class="col-4">
-        <h1>TOPPINGS</h1>
+
+      </div>
+
+      <div class="col-8">
+
+        <div class="row d-flex justify-content-around">
+          <div class="col-4">
+            <div class="card shadow">
+              <img
+                src="https://images.unsplash.com/photo-1587899576587-766a2afea5c6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="sprinkles-logo">
+              <div class="card-body text-center">
+                <h3 class="card-title">SPRINKLES</h3>
+                <p class="card-text">$2.99</p>
+                <div class="btn btn-primary" onclick="orderSprinkles()">+1</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card shadow">
+              <img
+                src="https://images.unsplash.com/photo-1587899576587-766a2afea5c6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="sprinkles-logo">
+              <div class="card-body text-center">
+                <h3 class="card-title">CHOCOLATE CHIPS</h3>
+                <p class="card-text">$2.99</p>
+                <div class="btn btn-primary" onclick="orderChocolateChips()">+1</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card shadow">
+              <img
+                src="https://images.unsplash.com/photo-1587899576587-766a2afea5c6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="sprinkles-logo">
+              <div class="card-body text-center">
+                <h3 class="card-title">COOKIE CHUNKS</h3>
+                <p class="card-text">$2.99</p>
+                <div class="btn btn-primary" onclick="orderCookieChunks()">+1</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 
+        <div class="row d-flex justify-content-around">
+          <div class="col-4">
+            <div class="card shadow">
+              <img
+                src="https://images.unsplash.com/photo-1587899576587-766a2afea5c6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="sprinkles-logo">
+              <div class="card-body text-center">
+                <h3 class="card-title">SPRINKLES</h3>
+                <p class="card-text">$2.99</p>
+                <div class="btn btn-primary">+1</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card shadow">
+              <img
+                src="https://images.unsplash.com/photo-1587899576587-766a2afea5c6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="sprinkles-logo">
+              <div class="card-body text-center">
+                <h3 class="card-title">SPRINKLES</h3>
+                <p class="card-text">$2.99</p>
+                <div class="btn btn-primary">+1</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card shadow">
+              <img
+                src="https://images.unsplash.com/photo-1587899576587-766a2afea5c6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="sprinkles-logo">
+              <div class="card-body text-center">
+                <h3 class="card-title">SPRINKLES</h3>
+                <p class="card-text">$2.99</p>
+                <div class="btn btn-primary">+1</div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+        <!-- STUB Ice Cream -->
+        <div class="row d-flex justify-content-around">
+          <div class="col-4">
+            <div class="card shadow">
+              <img
+                src="https://images.unsplash.com/photo-1561230101-2c841778f9ae?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="sprinkles-logo">
+              <div class="card-body text-center">
+                <h4 class="card-title">VANILLA</h4>
+                <p class="card-text">$2.99</p>
+                <div class="btn btn-primary" onclick="orderVanilla()">+1</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card shadow">
+              <img
+                src="https://images.unsplash.com/photo-1559622214-f8a9850965bb?q=80&w=930&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="sprinkles-logo">
+              <div class="card-body text-center">
+                <h4 class="card-title">COOKIE DOUGH</h4>
+                <p class="card-text">$2.99</p>
+                <div class="btn btn-primary" onclick="orderCookieDough()">+1</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card shadow">
+              <img
+                src="https://images.unsplash.com/photo-1532678465554-94846274c297?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="sprinkles-logo">
+              <div class="card-body text-center">
+                <h4 class="card-title">STRAWBERRY</h4>
+                <p class="card-text">$2.99</p>
+                <div class="btn btn-primary" onclick="orderIceCream('Strawberry')">+1</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+
+
+    <!-- SECTION cart 🛒 -->
+    <div class="col-4">
+      <div class="card shadow">
+        <div class="card-body">
+          <h3>Cart</h3>
+          <hr />
+
+          <section id="cart-items">
+          </section>
+
+          <h5 class="text-end">Total:</h5>
+          <hr />
+          <section id="total" class="text-end fw-bold">
+
+          </section>
+          <button class="btn btn-primary w-100" onclick="checkout()"> Checkout <i class="mdi mdi-check"></i></button>
+        </div>
+      </div>
+    </div>
+    </section>
   </main>
 
 
